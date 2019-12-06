@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    tools:ignore="Suspicious0dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="left"
+                android:src="@drawable/ambulance"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bloods"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="right"
+                android:src="@drawable/blood"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="स्वास्थ्य सेवाएं"
+                android:id="@+id/textgrid"
+                android:layout_centerInParent="true"
+                android:textColor="#000"
+                android:textSize="34sp"
+                />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:columnOrderPreserved="false"
+            android:rowCount="7">
+
+            <!--row1-->
+            <!--col1-->
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/button_shape"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                >
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:background="@android:color/transparent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/vish1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="अस्पताल "
+                        android:textAlignment="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/bloods" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ब्लड बैंक"
+                        android:textAlignment="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ambulance1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="एम्बुलेंस "
+                        android:textAlignment="center"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+    </LinearLayout>
+
+</ScrollView>

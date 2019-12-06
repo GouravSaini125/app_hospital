@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "904729940505",
+    "firebase_url": "https://avihi-90c12.firebaseio.com",
+    "project_id": "avihi-90c12",
+    "storage_bucket": "avihi-90c12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904729940505:android:1047903b28fe28040f5088",
+        "android_client_info": {
+          "package_name": "com.example.avi_hi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904729940505-opljkk3aa3c7elr69hlmgr1quvkh10fg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.avi_hi",
+            "certificate_hash": "75866f4839099868f3e28429e8511bc23261aa0e"
+          }
+        },
+        {
+          "client_id": "904729940505-v2l5op21j0ie8bjfh0s20v3dr3fhuajl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_8J7j6IXuuGWJPBNADUAF2V2Tylid7As"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904729940505-v2l5op21j0ie8bjfh0s20v3dr3fhuajl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
